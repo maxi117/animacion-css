@@ -237,7 +237,6 @@ overflow: hidden;
 
 @media (max-width: 576px) {
 .mujer_1{
- margin-bottom: -275px;
  margin-left: -20px;
  z-index: 9999;
  display: none;
@@ -245,17 +244,29 @@ overflow: hidden;
 
 .mujer_2{
   z-index: 9999;
-  margin-bottom: -275px;
   margin-left: -20px;
   display: block;
 }
 
+body {
+
+    background-position: center top;
+
 }
+
+.fa-heart{
+
+  top: 225px;
+  
+}
+
+}
+
+
 
 
 @media (max-width: 400px) {
 .mujer_1{
- margin-bottom: -350px;
  margin-left: -20px;
  z-index: 9999;
  display: none;
@@ -264,15 +275,17 @@ overflow: hidden;
 
 .mujer_2{
   z-index: 9999;
-  margin-bottom: -350px;
   margin-left: -20px;
   display: block;
+  margin-bottom: 200px;
 }
 
 .fa-heart{
-  top: 440px;
+
+  top: 130px;
   
 }
+
 
 }
 
