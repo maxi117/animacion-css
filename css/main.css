@@ -102,6 +102,7 @@ body{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: grey;
 
 }
 
@@ -146,6 +147,7 @@ background: linear-gradient(90deg, rgba(32,32,32,0.8967786943879115) 0%, rgba(32
   position: absolute;
   animation-name: cora;
   animation: cora 3s infinite;
+  top: 360px;
   
 }
 .pulso {
@@ -186,7 +188,7 @@ background: linear-gradient(90deg, rgba(32,32,32,0.8967786943879115) 0%, rgba(32
 }
 
 .mujer_1{
- margin-bottom: -100px;
+ margin-bottom: -235px;
  margin-left: -20px;
  z-index: 9999;
  display: none;
@@ -195,7 +197,7 @@ background: linear-gradient(90deg, rgba(32,32,32,0.8967786943879115) 0%, rgba(32
 
 .mujer_2{
   z-index: 9999;
-  margin-bottom: -100px;
+  margin-bottom: -235px;
   margin-left: -20px;
   display: block;
 }
@@ -217,7 +219,12 @@ background: linear-gradient(90deg, rgba(32,32,32,0.8967786943879115) 0%, rgba(32
 }
 
 
-
+.fondo{
+  position: relative;
+  width: 700px;
+  height: 665px;
+  margin: auto;
+}
 
 
 
