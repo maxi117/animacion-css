@@ -178,7 +178,7 @@ background: linear-gradient(90deg, rgba(32,32,32,0.8967786943879115) 0%, rgba(32
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 650px;
+  height: 600px;
   margin: auto;
 
 }
@@ -188,20 +188,8 @@ background: linear-gradient(90deg, rgba(32,32,32,0.8967786943879115) 0%, rgba(32
   color: red;
 }
 
-.mujer_1{
- margin-bottom: -235px;
- margin-left: -20px;
- z-index: 9999;
- display: none;
-}
 
 
-.mujer_2{
-  z-index: 9999;
-  margin-left: -20px;
-  display: block;
-
-}
 
 @keyframes cora {
   from {
@@ -232,7 +220,7 @@ overflow: hidden;
 
 @media (min-width: 576px) {
 .mujer_1{
- margin-bottom: -235px;
+ margin-bottom: -260px;
  margin-left: -20px;
  z-index: 9999;
  display: none;
@@ -241,7 +229,7 @@ overflow: hidden;
 
 .mujer_2{
   z-index: 9999;
-  margin-bottom: -235px;
+  margin-bottom: -260px;
   margin-left: -20px;
   display: block;
 }
@@ -249,12 +237,11 @@ overflow: hidden;
 
 @media (max-width: 576px) {
 .mujer_1{
- margin-bottom: -275
+ margin-bottom: -275px;
  margin-left: -20px;
  z-index: 9999;
  display: none;
 }
-
 
 .mujer_2{
   z-index: 9999;
